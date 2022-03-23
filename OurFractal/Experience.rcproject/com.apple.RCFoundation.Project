@@ -1,0 +1,886 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "vertical",
+                "name" : "surface"
+              },
+              "behaviors" : [
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+
+                      ],
+                      "color" : [
+                        0.364705890417099,
+                        0.74117648601531982,
+                        0.69019609689712524,
+                        1
+                      ],
+                      "identifier" : "D90FAEDE-EBDE-491B-BCA3-6009545EF336",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Реакция",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+
+                                },
+                                "name" : "start"
+                              },
+                              "identifier" : "0A063E85-850B-413C-9D03-9DECB5BDDD6A",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "targetScene" : "FF67CE3C-5EDE-45DC-93A5-2C38C2E30850"
+                                        },
+                                        "name" : {
+                                          "type" : "changeScene"
+                                        }
+                                      },
+                                      "identifier" : "AFBDB6D5-CCEA-4C9D-A71B-2D56DBE0C65B",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "CD5BDF33-F05B-46E5-A3D8-4B290D3FFBA9",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.21568627655506134,
+                        0.72549021244049072,
+                        0.80000001192092896,
+                        1
+                      ],
+                      "identifier" : "89931BA9-0AF0-463D-97C2-936327E117E5",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Реакция 1",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "EF52D78C-5E98-45A5-92F3-D8081C22DA7F"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "2E1A3C09-CA9E-4772-A982-3F42ECCA9E10",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                }
+              ],
+              "gravity" : [
+                0,
+                0,
+                0
+              ],
+              "identifier" : "F9610871-0955-494F-A5C3-51D1A281BAB3",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "4A213441-135C-450E-8EF8-1A4EAB267C1D" : null,
+                  "7F5F1ADC-E5E4-4EF5-A5B5-FC43B071FFA5" : null,
+                  "7F48E0E5-F3BB-492A-B391-FF7B393D968A" : null,
+                  "08E82A7C-2DBD-4072-A094-F31444144E99" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "doubleSided",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "image",
+                          {
+                            "typeName" : "String",
+                            "value" : "image:816482a7216ab8e092939c983b159be2\/%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%206.jpeg"
+                          }
+                        ],
+                        [
+                          "maxDimension",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.14799999999999999
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PosterAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "361D7B5D-D536-43E2-9E60-3EA22D2B1BAB"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-material",
+                          {
+                            "typeName" : "RigidBodyMaterial",
+                            "value" : {
+                              "builtIn" : "concrete",
+                              "overrides" : {
+
+                              }
+                            }
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
+                        ],
+                        [
+                          "rigidBody-shapeType",
+                          {
+                            "typeName" : "String",
+                            "value" : "default"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.3010737895965576,
+                        1.0010136229742953e-22,
+                        1.2094262528581593e-14,
+                        0,
+                        -1.0010136229742953e-22,
+                        3.3010737895965576,
+                        -9.0109277729552933e-23,
+                        0,
+                        -1.2094262528581593e-14,
+                        9.0109277729552933e-23,
+                        3.3010737895965576,
+                        0,
+                        -0.0065343384630978107,
+                        0.058379791676998138,
+                        -0.28294211626052856,
+                        1
+                      ]
+                    }
+                  },
+                  "632E476F-1E55-4E30-9723-1C51DD2E8B89" : null,
+                  "57677E36-63AB-4434-A243-376585A4076E" : null,
+                  "AC881C57-0D3F-4565-B784-513CA68F147B" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "doubleSided",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "image",
+                          {
+                            "typeName" : "String",
+                            "value" : "image:c64aabe0d8c359b689c7ee08cf3caf22\/int_15_town.jpeg"
+                          }
+                        ],
+                        [
+                          "maxDimension",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.14799999999999999
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PosterAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "EF52D78C-5E98-45A5-92F3-D8081C22DA7F"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        10.000002861022949,
+                        0,
+                        0,
+                        0,
+                        0,
+                        10.000002861022949,
+                        0,
+                        0,
+                        0,
+                        0,
+                        10.000002861022949,
+                        0,
+                        0.0045917038805782795,
+                        0.0014791124267503619,
+                        0.049931786954402924,
+                        1
+                      ]
+                    }
+                  },
+                  "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null,
+                  "B96A9813-71FE-4ABC-BE38-1F7187CD767D" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Box",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.98183488845825195,
+                  1.4901161193847656e-08,
+                  0.18973721563816071,
+                  0,
+                  -0.014135008677840233,
+                  0.99722111225128174,
+                  0.073144443333148956,
+                  0,
+                  -0.18920998275279999,
+                  -0.074497751891613007,
+                  0.97910654544830322,
+                  0,
+                  -0.263164222240448,
+                  -0.35152900218963623,
+                  3.1127519607543945,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "vertical",
+                "name" : "surface"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                0,
+                9.8000001907348633
+              ],
+              "identifier" : "FF67CE3C-5EDE-45DC-93A5-2C38C2E30850",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "0C1B4CE1-CC10-4542-9D21-6E7458FFA999" : null,
+                  "5DB29660-44BE-4E25-95EF-608205F557DA" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Escalator Icon"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "7D940342-ED20-46BC-B38B-0C88A2B88772"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.EscalatorIcon.32d3588c-77d0-47d8-b140-9404b50b70cb",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "99FE171A-53DE-4469-8278-B224DC4B4D35"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.24656185507774353,
+                        3.5227165222167969,
+                        0.0033954232931137085,
+                        0,
+                        -3.1572596981277457e-07,
+                        0.003403946990147233,
+                        -3.5313336849212646,
+                        0,
+                        -3.5227179527282715,
+                        0.24656152725219727,
+                        0.00023826792312320322,
+                        0,
+                        -0.37744215130805969,
+                        1.2226895093917847,
+                        1.1915804147720337,
+                        1
+                      ]
+                    }
+                  },
+                  "249DFCAF-B3D0-4410-8D77-E1B108CD1576" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Yard Waste Can"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "137599A9-CEC9-4D2F-8B71-25B9E8641A60"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.YardWasteCan.9d4c48db-4dba-4071-ac03-c13c0f07fcc1",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "39D15CC8-6951-4BEE-8F31-EDE0E6B26F38"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.55796211957931519,
+                        3.3257133935649108e-08,
+                        -3.3225095563693685e-08,
+                        0,
+                        -3.325712683022175e-08,
+                        0.00053766806377097964,
+                        -0.55796182155609131,
+                        0,
+                        -3.3225102669121043e-08,
+                        0.55796182155609131,
+                        0.00053766806377097964,
+                        0,
+                        0.06803266704082489,
+                        1.2139074802398682,
+                        0.7642056941986084,
+                        1
+                      ]
+                    }
+                  },
+                  "3011EABC-274C-4539-805B-28FCC892305C" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "noEditClockface_1" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "776CBB2A-CD16-4DB0-A6AA-83FB676740EE"
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "noEditClockhourHand_1" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "2085CDED-7E90-4AC1-8FAB-665B11309BCC"
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "noEditClockminuteHand_1" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "ABDAB495-C778-4608-933A-79E51B0009AE"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.ClockAssetFactory",
+                        "version" : "1.1"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "C6574D0B-1F76-4887-AF69-58D2DF14EC76"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1.7605437040328979,
+                        1.049365536687219e-07,
+                        -1.0483547896456002e-07,
+                        0,
+                        -1.049365536687219e-07,
+                        0.001696824561804533,
+                        -1.760542631149292,
+                        0,
+                        -1.0483547896456002e-07,
+                        1.760542631149292,
+                        0.001696824561804533,
+                        0,
+                        0.049710556864738464,
+                        1.2533104419708252,
+                        -0.057399686425924301,
+                        1
+                      ]
+                    }
+                  },
+                  "72144DCE-5FA3-456C-BF4C-7270C4F12CF7" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Yard Waste Can"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "E9D5814D-AF35-43C7-B406-4FC3160F2524"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.YardWasteCan.9d4c48db-4dba-4071-ac03-c13c0f07fcc1",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "91981BD7-2AE3-42E3-80A7-E5D03B0BB1B2"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        -0.24100233614444733,
+                        -0.00062129163416102529,
+                        0.64460182189941406,
+                        0,
+                        0.64460211992263794,
+                        -0.00023175636306405067,
+                        0.24100218713283539,
+                        0,
+                        -4.5120708591639413e-07,
+                        0.68818134069442749,
+                        0.0006631513824686408,
+                        0,
+                        -0.66223853826522827,
+                        1.0655289888381958,
+                        0.30595502257347107,
+                        1
+                      ]
+                    }
+                  },
+                  "Cube" : null,
+                  "D7BBBC15-129F-44F5-A46C-E25DE70181F6" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Yard Waste Can"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "3E90E11C-B8C4-45F0-A986-3EF10DCF4D20"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.YardWasteCan.9d4c48db-4dba-4071-ac03-c13c0f07fcc1",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "15B2DBED-91D6-41AF-A293-5302BA8F5037"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        -0.16698174178600311,
+                        0.00072802125941962004,
+                        -0.75547564029693604,
+                        0,
+                        -0.75547605752944946,
+                        -0.00016048611723817885,
+                        0.16698172688484192,
+                        0,
+                        3.6893359833811701e-07,
+                        0.77370947599411011,
+                        0.00074552255682647228,
+                        0,
+                        1.0564652681350708,
+                        1.062535285949707,
+                        0.29882287979125977,
+                        1
+                      ]
+                    }
+                  },
+                  "D4994946-6218-4E2B-A2BB-B17F20D7DF18" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Escalator Icon"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "91EA5EA8-608D-4E9F-B031-5FA2DAC93ED6"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.EscalatorIcon.32d3588c-77d0-47d8-b140-9404b50b70cb",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "25FF1EAA-DE57-4286-A324-762956EFF2BB"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.17412771284580231,
+                        -3.1891069412231445,
+                        -0.0030770266894251108,
+                        0,
+                        2.0940572085237363e-06,
+                        0.0030822618864476681,
+                        -3.193856954574585,
+                        0,
+                        3.1891083717346191,
+                        0.17412713170051575,
+                        0.00017076084623113275,
+                        0,
+                        0.53276097774505615,
+                        1.2680040597915649,
+                        1.1680339574813843,
+                        1
+                      ]
+                    }
+                  }
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Сцена 1",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.82395201921463013,
+                  8.3819031715393066e-09,
+                  0.56665951013565063,
+                  0,
+                  -0.2226402759552002,
+                  0.91958135366439819,
+                  0.32373031973838806,
+                  0,
+                  -0.52108961343765259,
+                  -0.39289960265159607,
+                  0.75769096612930298,
+                  0,
+                  -4.6874785423278809,
+                  -4.1931643486022949,
+                  7.6807465553283691,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}
